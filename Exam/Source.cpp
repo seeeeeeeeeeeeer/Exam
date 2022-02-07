@@ -62,7 +62,7 @@ public:
 	{
 		cout << "Enter Login: ";
 		cin >> login;
-		if(login!=)
+		
 	}
 	void set_password()
 	{
@@ -114,7 +114,7 @@ public:
 		cin >> login;
 		if (login!= login)
 		{
-			cout<<""
+			cout << " ";
 		}
 	}
 	void set_password()
