@@ -32,20 +32,7 @@ public:
 		this->rating = rating;
 		this->marks[12];
 	}
-	guest(string login, string password, string name, string surname, double rating, int* marks)
-	{
-		for (int i = 0; i < 12; i++)
-		{
-			this->marks[i] = marks[i];
-		}
-	}
-	guest(string login, string password, string name, string surname, double rating, int* marks)
-	{
-		for (int i = 0; i < 12; i++)
-		{
-			cout << "Marks: "<< marks[i];
-		}
-	}
+	
 	void print()
 	{
 		cout << "Name: " << "\n";
@@ -112,10 +99,7 @@ public:
 	{
 		cout << "Enter login: ";
 		cin >> login;
-		if (login!= login)
-		{
-			cout << " ";
-		}
+		
 	}
 	void set_password()
 	{
